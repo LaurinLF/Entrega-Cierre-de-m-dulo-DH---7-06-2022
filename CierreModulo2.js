@@ -1,6 +1,6 @@
 // Etapa 1:
 
-let autosInfo = require("./app.js");
+let autosInfo = require("./autos.js");
 
 let concesionaria = {
    autos: autosInfo,
