@@ -28,7 +28,7 @@ buscarAuto: function (patente){
 Recordatorio: Para comenzar tenés que agregar el código que escribiste en el ejercicio anterior. Para resolver esta nueva funcionalidad, tendrás que utilizar la función buscarAuto*/
 
 venderAuto: function (patente){
-    let auto= this.buscarAuto(patente)
+    let auto = this.buscarAuto(patente)
 
      if (auto != undefined){
         return auto.vendido = true
@@ -94,8 +94,8 @@ totalDeVentas: function (){
     if (arrayPrecios.length == 0){
         return 0
     } else{
-        let totalDeVentas = arrayPrecios.reduce(function(acum, precio){
-            return acum + precio
+        let totalDeVentas = arrayPrecios.reduce(function(acumulador, precio){
+            return acumulador + precio
            })
            return totalDeVentas
     }
